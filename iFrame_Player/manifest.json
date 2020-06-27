@@ -1,0 +1,26 @@
+{
+	"name": "iFrame Player",
+	"version": "1.0.2",
+	"description": "Melhora sua experiência para ver animes",
+	"author": "itallolegal/hyper1025",
+	"icons": { "48": "icon.png" },
+	"browser_action":{
+		"default_title": "iFrame Player",
+		"default_popup": "popup.html",
+		"default_icon": "icon.png"
+	},
+	"web_accessible_resources": [
+    "player.html"
+  ],
+	"permissions": [
+		  "storage"
+        ],
+	"content_scripts": [
+    {
+        "matches": ["http://www.crunchyroll.com/*", "https://www.crunchyroll.com/*"],
+        "css": ["content.css"],
+        "js": ["content.js"]
+    }
+],
+	"manifest_version": 2
+}
