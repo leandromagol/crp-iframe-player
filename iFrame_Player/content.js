@@ -34,11 +34,6 @@ function importPlayer(){
 			document.body.querySelector("#showmedia_video_box_wide").appendChild(ifrm);
 		}
 
-		if (document.body.querySelector(".freetrial-note") != null) {
-			console.log("[iFrame Player] Removendo Free Trial Note...");
-			document.body.querySelector(".freetrial-note").style.display = "none";
-		}
-
 		if(document.body.querySelector(".showmedia-trailer-notice") != null){
 			console.log("[iFrame Player] Removendo Trailer Notice...");
 			document.body.querySelector(".showmedia-trailer-notice").style.display = "none";
@@ -59,6 +54,11 @@ function importPlayer(){
 }
 
 function onloadfunction() {
+	if (document.body.querySelector(".freetrial-note") != null) {
+		console.log("[iFrame Player] Removendo Free Trial Note...");
+		document.body.querySelector(".freetrial-note").style.display = "none";
+	}
+	
 	if(pegaString(HTML, "vilos.config.media = ", ";") != null){
 		importPlayer();
 	}
