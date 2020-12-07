@@ -1,1 +1,20 @@
-
+# This file must contain an HTML file with a div named 'container' for the player to load
+# Please find the file jwplayer-core/README.md inside for more detail in the process of upgrading.
+https://ssl.p.jwpcdn.com/android/3.19.0+118/jwplayer_container.html
+https://ssl.p.jwpcdn.com/android/3.19.0+118/mobile_workarounds.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/jwplayer.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/jwplayer.core.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/jwplayer.core.controls.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/jwplayer.core.controls.polyfills.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/jwplayer.compatibility.js
+https://ssl.p.jwpcdn.com/android/3.19.0+118/controlbar.js
+https://ssl.p.jwpcdn.com/android/3.19.0+118/html5_provider_mobile.js
+https://ssl.p.jwpcdn.com/android/3.19.0+118/jw_pings.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/polyfills.intersection-observer.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/polyfills.webvtt.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/related.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/vast.js
+https://ssl.p.jwpcdn.com/player/v/8.15.1/vttparser.js
+https://ssl.p.jwpcdn.com/android/3.19.0+118/native-intersection-observer.js
+https://ssl.p.jwpcdn.com/android/3.19.0+118/native-playlistItem-callback.js
+# All CSS files will be copied to the /css directory
